@@ -37,7 +37,7 @@ Nevertheless, It is necessary to have a clear procedure for the evaluation of eq
 </div>
 
 
-<div>
+<div  align="justify">
 To confirm whether an alternative evaluation procedure can achieve the results specified in this European
 Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
 Standard and outlined below in Steps 1, 2 and 3:
