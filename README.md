@@ -69,6 +69,15 @@ need to be followed but does not impose any particular numerical calculation met
   <a href="https://maven.apache.org/">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230741096-33c1b8ab-1ec8-4364-b877-09aaa7df0fcd.png" alt="Logo" width="160" height="65"/>
   </a> 
+  <a href="https://tailwindcss.com/">
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/230746254-47f923b1-f3b5-4cd0-a858-c6f1bea0be34.png" alt="Logo" width="160" height="65"/>
+  </a> 
+  <a href="https://maven.apache.org/">
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/230741096-33c1b8ab-1ec8-4364-b877-09aaa7df0fcd.png" alt="Logo" width="160" height="65"/>
+  </a> 
+  <a href="https://maven.apache.org/">
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/230741096-33c1b8ab-1ec8-4364-b877-09aaa7df0fcd.png" alt="Logo" width="160" height="65"/>
+  </a> 
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
