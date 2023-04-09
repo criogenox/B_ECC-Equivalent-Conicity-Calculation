@@ -15,6 +15,37 @@
 ## About the project
 
 <div align="justify">
+
+Introduction
+This European Standard is based on the UIC Code 519 OR submitted to CEN by the International Union of
+Railways (UIC) and which has been revised by CEN/TC 256/WG 10 "Vehicle/Track Interaction".
+
+
+The wheel-rail contact geometry is a fundamental topic to be analized to explain the dynamic running behaviour of a railway vehicle. 
+
+According to the EN15302 Standard, we can summarize the importance of the entire study thus:
+
+> Among the parameters by which the dynamic behaviour of a rail vehicle is characterised, the conicity plays an essential role since it allows the satisfactory appreciation of the wheel-rail contact on tangent track and on very large-radius curves (when operated with low cant deficiencies). A wheelset with conical profiles describes a waveform while running on a track. Klingel’s theory states that the wavelength depends on the cone angle of the wheel profile and the distance between contact patches. For practical wheel profiles with changing cone angles along the profile it is possible to evaluate the wavelength of the wheelsets movement by integration of the function of rolling radius difference depending on the lateral movement of the wheelset on the track. Equivalent conicity is evaluated by comparison of this wavelength with the one evaluated according to Klingel's theory.
+
+It is necessary to have a clear procedure for the evaluation of equivalent conicity, which is used in European
+and national standards and documents (legal and technical).
+
+The results need to be consistent. However it is possible to use different evaluation procedures to those given
+in this European Standard, provided that the procedure used leads to the determination of an equivalent
+conicity in accordance with the calculation results using reference profiles specified in Annex E.
+To confirm whether an alternative evaluation procedure can achieve the results specified in this European
+Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
+Standard and outlined below in Steps 1, 2 and 3:
+
+In Step 1, tables of reference profiles in Annex D are applied to the interpolation and calculation algorithm
+which allows the location of the contact points in order to calculate the rolling radius difference as a function of
+the lateral position of the wheelset. Starting from this function the equivalent conicity is calculated as a
+function of the amplitude of the oscillation. A comparison of the achieved results with the reference results in
+Annex E and a defined field of allowed tolerances in Annex F determine the acceptance or rejection of the
+assessed evaluation procedure (see Figure 1).
+
+
+
 This project was born as an aditional work to fullfil a personal pending asignature from my PhD days. Nothing more, nothing less.
   
 As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
