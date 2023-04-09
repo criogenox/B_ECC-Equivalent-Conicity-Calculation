@@ -60,17 +60,17 @@ Annex E
 (normative)
 Calculation results with reference profiles
 
-|  Right / Left / Rail Profiles Combination  | Right / Left Wheels' Diameters| Testing Status |
-|:------------------------------------------:|:-----------------------------:|:--------------:|
-|                  A / A / A                 |           920 / 920           |    ✔          |
-|                  B / B / A                 |           920 / 920           |    ✔          |
-|                  H / H / A                 |           920 / 920           |    ✔          |
-|                  I / I / A                 |           920 / 920           |    ✔          |
-|                  A / A / A                 |           920 / 918           |    ✔          |
-|                  B / B / A                 |           920 / 918           |    ✔          |
-|                  H / H / A                 |           920 / 918           |    ✔          |
-|                  I / I / A                 |           920 / 918           |    ✔          |
-|                  A / B / A                 |           920 / 920           |    ✔          |
+|Test Case|  Right / Left / Rail Profiles Combination  | Right / Left Wheels' Diameters| Testing Status |
+|:------:|:------------------------------------------:|:-----------------------------:|:--------------:|
+|   E1   |                  A / A / A                 |           920 / 920           |    ✔          |
+|   E2   |                  B / B / A                 |               "               |    ✔          |
+|   E3   |                  H / H / A                 |               "               |    ✔          |
+|   E4   |                  I / I / A                 |               "               |    ✔          |
+|   E5   |                  A / A / A                 |           920 / 918           |    ✔          |
+|   E6   |                  B / B / A                 |               "               |    ✔          |
+|   E7   |                  H / H / A                 |               "               |    ✔          |
+|   E8   |                  I / I / A                 |               "               |    ✔          |
+|   E9   |                  A / B / A                 |           920 / 920           |    ✔          |
 
 
 
