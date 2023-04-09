@@ -39,6 +39,25 @@ with tolerance limits, which allow the user to assess the acceptability of a mea
 including random- and grid- errors of the measuring system. It sets down the principles of calculation that
 need to be followed but does not impose any particular numerical calculation method.
 
+Annex B
+(informative)
+Example of method for determining the equivalent conicity by integration
+of the nonlinear differential equation 
+
+Annex E
+(normative)
+Calculation results with reference profiles
+
+
+Annex F
+(normative)
+Tolerances on equivalent conicity
+The tolerances given in this annex are based on the following equation:
+∆(tanγe) = ± min (0,05; 0,5tanγe)
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
