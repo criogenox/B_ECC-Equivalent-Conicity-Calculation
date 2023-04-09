@@ -63,14 +63,14 @@ Calculation results with reference profiles
 | Right / Left / Rail profile combination    | Right / Left Wheels' diameters| Testing |
 |:------------------------------------------:|:-----------------------------:|:-------:|
 |                  A / A / A                 |           920 / 920           |    ✔   |
-|                  B / B / A                 |           920 / 920           |
-|                  H / H / A                 |           920 / 920           |
-|                  I / I / A                 |           920 / 920           |
-|                  A / A / A                 |           920 / 918           |
-|                  B / B / A                 |           920 / 918           |
-|                  H / H / A                 |           920 / 918           |
-|                  I / I / A                 |           920 / 918           |
-|                  A / B / A                 |           920 / 920           |
+|                  B / B / A                 |           920 / 920           |    ✔   |
+|                  H / H / A                 |           920 / 920           |    ✔   |
+|                  I / I / A                 |           920 / 920           |    ✔   |
+|                  A / A / A                 |           920 / 918           |    ✔   |
+|                  B / B / A                 |           920 / 918           |    ✔   |
+|                  H / H / A                 |           920 / 918           |    ✔   |
+|                  I / I / A                 |           920 / 918           |    ✔   |
+|                  A / B / A                 |           920 / 920           |    ✔   |
 
 
 
