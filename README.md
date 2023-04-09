@@ -7,7 +7,7 @@
   </a>
   <h3 align="center">Railway applications</h3>
   <p align="center">
-    Wheel / Rail Equivalent Conicity Calculation (Benchmark Program)
+    Equivalent Conicity Calculation (Benchmark Program)
   </p>
 </div>
 
@@ -71,12 +71,6 @@ need to be followed but does not impose any particular numerical calculation met
   </a> 
 </div>
 
-
-
-
-https://user-images.githubusercontent.com/53323058/230739321-47226e6b-00c1-4840-8053-0382db68446c.png
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUMMARY -->
@@ -84,7 +78,6 @@ https://user-images.githubusercontent.com/53323058/230739321-47226e6b-00c1-4840-
 
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
-<img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500">
 
 Both the theoretical and the real profiles (including worn ones) cannot be described by a linear function as in the case of wheels with a conical profile, therefore, the difference between the rolling radii of each wheel for different values of lateral displacement brings a nonlinear function ∆r. To linearize this function, the concept of equivalent conicity originally defined by the UIC 519 standard (EN 15302) is used, approximating the relationship between ∆r and the amplitude of the lateral displacement.
 
@@ -92,7 +85,7 @@ For a wheel with a conical profile, the equivalent conicity is simply the half-a
 
 In this way, the equivalent conicity is a parameter used to characterize the geometry of the wheel-rail contact and establishes the criterion for assessing the influence of the contact on the vehicle's driving stability on a straight track. 
 
-<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230651059-2a746e31-8ca0-42a1-9418-eb15def72d44.png">
+<img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
   
 The value of the wheel conicity provides quantitative information on the influence of the wheel-rail interaction on the quality of ride comfort and the dynamic stability of the rail vehicle.
   
