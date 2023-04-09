@@ -44,10 +44,50 @@ Annex B
 Example of method for determining the equivalent conicity by integration
 of the nonlinear differential equation 
 
+Annex D
+(normative)
+Reference profiles
+
+D.1.3 Cartesian coordinates
+
+Wheel profiles: R-UIC 519-A/B/H/I
+Rail profile: S-UIC 519-A
+Gauge: 1435.16 mm
+Wheels diameter: 920 mm (unless otherwise indicated)
+
+
+
 Annex E
 (normative)
 Calculation results with reference profiles
 
+E.1 Wheel A / Rail A 
+
+E.2 Wheel B / Rail A 
+
+E.3 Wheel H / Rail A 
+
+E.4 Wheel I / Rail A 
+
+E.5 Wheel A / Rail A 
+Wheel diameter:
+— left wheel: 918 mm
+
+E.6 Wheel B / Rail A 
+Wheel diameter:
+— left wheel: 918 mm
+
+E.7 Wheel H / Rail A 
+Wheel diameter:
+— left wheel: 918 mm
+
+E.8 Wheel I / Rail A 
+Wheel diameter:
+— left wheel: 918 mm
+
+E.9 Wheel * / Rail A
+— right wheel: A
+— left wheel: B
 
 Annex F
 (normative)
