@@ -40,9 +40,7 @@ including random- and grid- errors of the measuring system. It sets down the pri
 need to be followed but does not impose any particular numerical calculation method.
 
 
-The approach used in the giving program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. 
-
-Based on the function ∆r = f(y), It is feasible to obtain the value conicity, for a given lateral movement of the wheelset, finding the wavelength λ of the wheelset's kinematic motion and applying the Klingel formula.
+The approach used in the giving program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
 
 Annex D
