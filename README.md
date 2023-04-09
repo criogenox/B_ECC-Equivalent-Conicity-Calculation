@@ -7,7 +7,7 @@
   </a>
   <h3 align="center">Railway applications</h3>
   <p align="center">
-    Wheel / Rail Contact Characterization Program
+    Wheel / Rail Equivalent Conicity Calculation (Benchmark Program)
   </p>
 </div>
 
@@ -27,6 +27,18 @@ The equivalent conicity acts as a safety parameter which describes the behavior 
   
 This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the giving software.
 </div>
+
+
+This European Standard establishes an evaluation procedure for determining equivalent conicity. A
+benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent
+conicity, which may be calculated by different methods not given in this European Standard. This European
+Standard also proposes possible calculation methods. Informative examples of the use of the Klingel formula
+(see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
+This European Standard includes reference profiles, profile combinations, tolerances and reference results
+with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system
+including random- and grid- errors of the measuring system. It sets down the principles of calculation that
+need to be followed but does not impose any particular numerical calculation method.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
