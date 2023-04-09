@@ -16,27 +16,42 @@
 
 <div align="justify">
 
-Introduction
-This European Standard is based on the UIC Code 519 OR submitted to CEN by the International Union of
-Railways (UIC) and which has been revised by CEN/TC 256/WG 10 "Vehicle/Track Interaction".
+### Introduction
 
-
-The wheel-rail contact geometry is a fundamental topic to be analized to explain the dynamic running behaviour of a railway vehicle. 
+The wheel-rail contact geometry is a fundamental topic to be analized to explain the dynamic running behaviour of a railway vehicle. The EN15302 (UIC 519) European Standard establishes an evaluation procedure for determining equivalent conicity and a benchmark calculation is specified to achieve comparable results on a consistent basis.
+  
+This project aims to code that procedure and test it under reference cases results, and verify the obtained values against the tolerance data given in annex E. 
 
 According to the EN15302 Standard, we can summarize the importance of the entire study thus:
 
 > Among the parameters by which the dynamic behaviour of a rail vehicle is characterised, the conicity plays an essential role since it allows the satisfactory appreciation of the wheel-rail contact on tangent track and on very large-radius curves (when operated with low cant deficiencies). Klingel’s theory states that the wavelength described by a wheelset, with conical profiles while running on a track, depends on the cone angle of the wheel profile and the distance between contact patches. For practical wheel profiles with changing cone angles along the profile it is possible to evaluate the wavelength of the wheelsets movement by integration of the function of rolling radius difference depending on the lateral movement of the wheelset on the track. Equivalent conicity is evaluated by comparison of this wavelength with the one evaluated according to Klingel's theory.
 
-Nevertheless, It is necessary to have a clear procedure for the evaluation of equivalent conicity and results need to be consistent. To achieve this purpose, it's possible to use different evaluation procedures (given in this European Standard), and verify the obtained results in accordance with the calculation ones using reference profiles specified in Annex E.
-
-  
-  
-  
-  
-  
+Nevertheless, It is necessary to follow a clear and concise procedure for the evaluation of equivalent conicity and results must to be consistent. To achieve this purpose, it's possible to use different evaluation procedures (given in this European Standard), and verify the obtained results in accordance with the calculation ones using reference profiles specified in Annex E.
 </div>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Built With
+
+<div style="display: flex; flex-direction: row; align=center">
+  <a href="https://openjfx.io/">
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/230740541-3d3ee950-7f4c-4399-9275-9795ea7c4f37.png" alt="Logo" width="160" height="65"/>
+  </a>
+  <a href="https://www.w3.org/TR/CSS/#css">
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/230694275-351e4257-7cbf-4dc7-a1b6-42079b9b37aa.png" alt="Logo" width="160" height="65"/>
+  </a>
+  <a href="https://netbeans.apache.org/">
+    <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
+  </a> 
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUMMARY -->
+## Background & Details
+
+<div align="justify"> 
+  <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
 <div  align="justify">
 To confirm whether an alternative evaluation procedure can achieve the results specified in this European
 Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
@@ -123,36 +138,25 @@ Annex F
 Tolerances on equivalent conicity
 The tolerances given in this annex are based on the following equation:
 ∆(tanγe) = ± min (0,05; 0,5tanγe)
+  
+  1 Scope
+
+  This European Standard . 
+  
+  for the equivalent conicity, which may be calculated by different methods not given in this European Standard. This European
+
+  Standard also proposes possible calculation methods. Informative examples of the use of the Klingel formula (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
+
+  This European Standard includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system. It sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
+
+  This European Standard does not define limits for the equivalent conicity and gives no tolerances for the rail profile and the wheel profile to achieve acceptable results for the conicity.
+
+  For purposes outside the scope of this European Standard (e.g. simulation of vehicle behaviour) it can be
+useful or necessary to use more sophisticated theories. These methods are not within the scope of this
+European Standard.
+For the application of this European Standard some general recommendations are given in Annex I. 
   </div>
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-<div style="display: flex; flex-direction: row; align=center">
-  <a href="https://openjfx.io/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230740541-3d3ee950-7f4c-4399-9275-9795ea7c4f37.png" alt="Logo" width="160" height="65"/>
-  </a>
-  <a href="https://www.w3.org/TR/CSS/#css">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230694275-351e4257-7cbf-4dc7-a1b6-42079b9b37aa.png" alt="Logo" width="160" height="65"/>
-  </a>
-  <a href="https://netbeans.apache.org/">
-    <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
-  </a> 
-</div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUMMARY -->
-## Background & Details
-
-<div align="justify"> 
-  <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
-
+  
 Both the theoretical and the real profiles (including worn ones) cannot be described by a linear function as in the case of wheels with a conical profile, therefore, the difference between the rolling radii of each wheel for different values of lateral displacement brings a nonlinear function ∆r. To linearize this function, the concept of equivalent conicity originally defined by the UIC 519 standard (EN 15302) is used, approximating the relationship between ∆r and the amplitude of the lateral displacement.
 
 For a wheel with a conical profile, the equivalent conicity is simply the half-angle of the tread of the cone. For wheels with arbitrary profiles, the equivalent conicity is defined as the tangent of the angle of the cone of a purely conical profile whose lateral movement produces a kinematic oscillation with the same wavelength as the pair mounted with arbitrary profiles. This definition is only applicable in the analysis on straight paths and large radius curves (Rc ≥ 2500m).
