@@ -11,6 +11,19 @@
   </p>
 </div>
 
+<!-- MOTIVATIONS -->
+
+## Project's motivations
+
+<div align="justify">
+Back in 2013, when I started my PhD, I would have liked to have access to more information and resources. Everything done was the product of sailing in a storm, with a boat and only 1 oar. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
+
+Stay strong. don't give up.
+ <p align="right">
+    Emilio Tamburini
+  </p> 
+   <div>
+
 <!-- ABOUT THE PROJECT -->
 ## About the project
 
