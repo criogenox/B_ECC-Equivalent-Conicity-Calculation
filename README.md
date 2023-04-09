@@ -13,7 +13,7 @@
 
 <!-- MOTIVATIONS -->
 
-## Project's motivations
+## Global project's motivations
 
 <div align="justify">
   <p>
