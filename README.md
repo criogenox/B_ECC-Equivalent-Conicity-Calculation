@@ -25,14 +25,19 @@ The wheel-rail contact geometry is a fundamental topic to be analized to explain
 
 According to the EN15302 Standard, we can summarize the importance of the entire study thus:
 
-> Among the parameters by which the dynamic behaviour of a rail vehicle is characterised, the conicity plays an essential role since it allows the satisfactory appreciation of the wheel-rail contact on tangent track and on very large-radius curves (when operated with low cant deficiencies). A wheelset with conical profiles describes a waveform while running on a track. Klingel’s theory states that the wavelength depends on the cone angle of the wheel profile and the distance between contact patches. For practical wheel profiles with changing cone angles along the profile it is possible to evaluate the wavelength of the wheelsets movement by integration of the function of rolling radius difference depending on the lateral movement of the wheelset on the track. Equivalent conicity is evaluated by comparison of this wavelength with the one evaluated according to Klingel's theory.
+> Among the parameters by which the dynamic behaviour of a rail vehicle is characterised, the conicity plays an essential role since it allows the satisfactory appreciation of the wheel-rail contact on tangent track and on very large-radius curves (when operated with low cant deficiencies). Klingel’s theory states that the wavelength described by a wheelset, with conical profiles while running on a track, depends on the cone angle of the wheel profile and the distance between contact patches. For practical wheel profiles with changing cone angles along the profile it is possible to evaluate the wavelength of the wheelsets movement by integration of the function of rolling radius difference depending on the lateral movement of the wheelset on the track. Equivalent conicity is evaluated by comparison of this wavelength with the one evaluated according to Klingel's theory.
 
-It is necessary to have a clear procedure for the evaluation of equivalent conicity, which is used in European
-and national standards and documents (legal and technical).
+Nevertheless, It is necessary to have a clear procedure for the evaluation of equivalent conicity and results need to be consistent. To achieve this purpose, it's possible to use different evaluation procedures (given in this European Standard), and verify the obtained results in accordance with the calculation ones using reference profiles specified in Annex E.
 
-The results need to be consistent. However it is possible to use different evaluation procedures to those given
-in this European Standard, provided that the procedure used leads to the determination of an equivalent
-conicity in accordance with the calculation results using reference profiles specified in Annex E.
+  
+  
+  
+  
+  
+</div>
+
+
+<div>
 To confirm whether an alternative evaluation procedure can achieve the results specified in this European
 Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
 Standard and outlined below in Steps 1, 2 and 3:
@@ -65,15 +70,9 @@ This project was born as an aditional work to fullfil a personal pending asignat
   
 As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
   
-Let's Prof. Dr. Ing. habil. Oldrich Polach clarifies our way:
-
-> In railway applications, the so-called equivalent conicity is used in order to characterise the contact geometry wheelset/track. Basically, the wheelset/track pairing is _“replaced”_ with an _“equivalent wheelset”_ having a conical wheel tread surface, which only possesses validity for a specific wheelset lateral amplitude. The equivalent conicity is then the conicity of a conical wheelset performing a similar wavelike motion as the examined wheelset, at the prescribed lateral amplitude.
-  
 The equivalent conicity acts as a safety parameter which describes the behavior and dynamic interaction between rails & wheels running on a straight or large radius (curved) track. This way, the equivalent conicity could indicate the presence of instable movement leading to a derailment event, therefore It can be used to determine a critical speed of a train at any type of track.
   
 This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the giving software.
-</div>
-
 
 This European Standard establishes an evaluation procedure for determining equivalent conicity. A
 benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent
@@ -124,6 +123,7 @@ Annex F
 Tolerances on equivalent conicity
 The tolerances given in this annex are based on the following equation:
 ∆(tanγe) = ± min (0,05; 0,5tanγe)
+  </div>
 
 
 
