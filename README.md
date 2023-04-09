@@ -60,37 +60,19 @@ Annex E
 (normative)
 Calculation results with reference profiles
 
-| Wheels' profile combination | Wheels' diameters exception |
-|:---------------------------:|:---------------------------:|
-|              A              |             -               |
+| Right / Left / Rail profile combination    | Right / Left Wheels' diameters|
+|:------------------------------------------:|:-----------------------------:|
+|                  A / A / A                 |           920 / 920           |
+|                  B / B / A                 |           920 / 920           |
+|                  H / H / A                 |           920 / 920           |
+|                  I / I / A                 |           920 / 920           |
+|                  A / A / A                 |           920 / 918           |
+|                  B / B / A                 |           920 / 918           |
+|                  H / H / A                 |           920 / 918           |
+|                  I / I / A                 |           920 / 918           |
+|                  A / B / A                 |           920 / 920           |
+|:------------------------------------------:|:-----------------------------:|
 
-E.1 Wheel A / Rail A 
-
-E.2 Wheel B / Rail A 
-
-E.3 Wheel H / Rail A 
-
-E.4 Wheel I / Rail A 
-
-E.5 Wheel A / Rail A 
-Wheel diameter:
-— left wheel: 918 mm
-
-E.6 Wheel B / Rail A 
-Wheel diameter:
-— left wheel: 918 mm
-
-E.7 Wheel H / Rail A 
-Wheel diameter:
-— left wheel: 918 mm
-
-E.8 Wheel I / Rail A 
-Wheel diameter:
-— left wheel: 918 mm
-
-E.9 Wheel * / Rail A
-— right wheel: A
-— left wheel: B
 
 Annex F
 (normative)
