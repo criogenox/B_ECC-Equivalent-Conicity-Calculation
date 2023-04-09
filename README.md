@@ -59,7 +59,9 @@ Wheels diameter: 920 mm (unless otherwise indicated)
 Annex E
 (normative)
 Calculation results with reference profiles
+
 | Wheels' profile combination | Wheels' diameters exception |
+|:---------------------------:|:---------------------------:|
 |              A              |             -               |
 
 E.1 Wheel A / Rail A 
