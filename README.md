@@ -115,6 +115,57 @@ need to be followed but does not impose any particular numerical calculation met
 
 The approach used in the giving program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
+6 Benchmark calculation
+6.1 Overview
+It is necessary to validate the method to be used by means of a benchmark calculation with defined test
+profiles for the whole evaluation system for the equivalent conicity because the following are not defined when
+using this European Standard in practice:
+ sample rate of the profile measurement;
+ smoothing procedure;
+ integration method for the evaluation of the wavelength.
+Both the method of determination of the equivalent conicity and the smoothing procedure for profile data shall
+be validated by a benchmark calculation with defined reference-profiles combined with random- and griderrors. This is achieved by a three step process:
+ step 1 checks the interpolation and calculation algorithm;
+ when Step 1 has been successfully passed, Step 2 applies defined errors to the data of Step 1;
+ when Step 2 has been successfully passed Step 3 then checks the whole candidate system.
+6.2 Validation of evaluation method
+For all steps the calculations shall be done for all combinations of the reference profiles given in Annex E
+including the influence of asymmetrical ∆r -functions produced by different wheel diameters or different wheel
+profiles on both wheels as given from E.5 to E.9.
+If the equivalent conicity is considered at certain amplitude when applying EN 14363 and at this amplitude a
+rapid change in conicity occurs, further measurements and/or calculations in order to determine the
+sensitivities and trends of the rapid change shall be carried out. The further measurements will then be
+included in the assessment of the candidate technique consisting of measuring and calculation algorithm.
+NOTE 1 The reference profiles given in Annex D are only defined for benchmark calculations to test the algorithm in a
+wide range of conditions; they have no practical meaning for a design of a real profile.
+BS EN 15302:2008+A1:2010
+EN 15302:2008+A1:2010 (E)
+20
+Step 1
+In Step 1, the interpolation and calculation algorithm to be tested shall be applied to the reference profiles in
+Annex D. The achieved results shall be compared with the reference results in Annex E and the defined field
+of allowed tolerances in Annex F. The achieved results shall be within the tolerance field given in Annex F in
+order for the calculation algorithm to successfully pass Step 1 (see Figure 1).
+Step 2
+The purpose of Step 2 is to assess the smoothing procedure. It repeats the calculations of Step 1. In Step 2,
+the smoothing, interpolation and calculation algorithm shall be applied to the reference profiles in Annex D
+with all errors given in Annex G superimposed.
+The effect of a random error and a grid shall be proven by separate calculations for the cases by which an
+error occurs only at the wheel, only at the rail and at both wheel and rail.
+The effects shall be quantified in z-, y- and (z + y)-directions depending on the measuring system. For non
+Cartesian measuring systems appropriate coordinates should be used.
+For each case a sufficient number of calculations (≥ 20) shall be done for different randomized errors related
+to the grid origin position and random limit (see Annex H).
+The assessment of the evaluation procedure (see Figure 2) shall be performed by a comparison of the
+achieved results with the reference results including the field of tolerances in Annex F.
+NOTE 2 The illustrations given in Annex G represent results of typical calculations. These results are considered
+acceptable.
+Step 3
+Step 3 checks that the whole system and process of the candidate technique will generate results that are
+sufficiently accurate. It repeats the calculations of Step 2 using the tolerances of the measuring and digitizing
+system to be assessed instead of the prescribed errors in Step 2.
+NOTE 3 The illustrations given in Annex G represent results of typical calculations. These results are considered
+acceptable.
 
 Annex D
 (normative)
@@ -152,56 +203,15 @@ Tolerances on equivalent conicity
 The tolerances given in this annex are based on the following equation:
 ∆(tanγe) = ± min (0,05; 0,5tanγe)
   
-  1 Scope
-
-  This European Standard . 
-  
-  for the equivalent conicity, which may be calculated by different methods not given in this European Standard. This European
-
-  Standard also proposes possible calculation methods. Informative examples of the use of the Klingel formula (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
-
-  This European Standard includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system. It sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
-
-  This European Standard does not define limits for the equivalent conicity and gives no tolerances for the rail profile and the wheel profile to achieve acceptable results for the conicity.
-
-  For purposes outside the scope of this European Standard (e.g. simulation of vehicle behaviour) it can be
-useful or necessary to use more sophisticated theories. These methods are not within the scope of this
-European Standard.
-For the application of this European Standard some general recommendations are given in Annex I. 
   </div>
-  
-Both the theoretical and the real profiles (including worn ones) cannot be described by a linear function as in the case of wheels with a conical profile, therefore, the difference between the rolling radii of each wheel for different values of lateral displacement brings a nonlinear function ∆r. To linearize this function, the concept of equivalent conicity originally defined by the UIC 519 standard (EN 15302) is used, approximating the relationship between ∆r and the amplitude of the lateral displacement.
-
-For a wheel with a conical profile, the equivalent conicity is simply the half-angle of the tread of the cone. For wheels with arbitrary profiles, the equivalent conicity is defined as the tangent of the angle of the cone of a purely conical profile whose lateral movement produces a kinematic oscillation with the same wavelength as the pair mounted with arbitrary profiles. This definition is only applicable in the analysis on straight paths and large radius curves (Rc ≥ 2500m).
-
-In this way, the equivalent conicity is a parameter used to characterize the geometry of the wheel-rail contact and establishes the criterion for assessing the influence of the contact on the vehicle's driving stability on a straight track. 
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230752262-5618d19f-664f-42c6-b850-0fdd1890bf77.png">
-  
-The value of the wheel conicity provides quantitative information on the influence of the wheel-rail interaction on the quality of ride comfort and the dynamic stability of the rail vehicle.
-  
-High taper conicity (shortest wavelength at comparative constant speed):
-  * Greater compensation of the centrifugal force on curved paths, reducing the risk of derailment.
-  * Reduced driving comfort on a straight track due to the presence of greater lateral accelerations.
-  
-Low taper conicity (longer wavelength at comparative constant speed):
-  * Increase in the frequency of occurrence of the flange hit during circulation in slight curves, causing excessive wear on the wheel profile.
-  * Decreased lateral acceleration, increasing ride quality on straight paths.
+
   
 The method proposed by the EN 15302 standard is based on the analysis of the kinetic movement of a pair mounted on a straight track or large radius curved paths. The determination of the equivalent conicity is performed by numerically integrating the function ∆r, representing the longitudinal distance traveled in terms of lateral displacement, x = f(y). From the latter, the wavelength λ is obtained for lateral displacements in the interval [1-7 mm] with increments ∆y ≤ 0.1mm, to finally determine the equivalent conicity by using the Klingel's formula for a conical profile whose kinematic movement presents the same wavelength.
   
 <img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
  
-The software capabilities focuses on the characterization of wheel-rail rigid contact through the aid of following specific calculations:
-
-* Potential wheel-rail contact points detection by mean of rigid profiles penetration comparision.
-* tan(γa) --> angle of the tangent to the point of contact between wheel and rail.
-* ∆r --> rolling-radius difference function, at the predefined lateral amplitude interval. 
-* tan(γc)=f(λ) --> Determination of the equivalent conicity for each movement wavelength of an (equivalente) conical profile, at a specific lateral displacement (wave amplitude).
-  
-The included parameters that influence the determination of the equivalent conicity are the geometry of the profiles, the gauge of the track, the inclination of the rail and the active gauge of the mounted pair. Other factors, not implemented up to the present time, that increase the complexity of the process calculation are the wear of the profiles and the deviations present in the track layout, such as the unevenness, gauge difference and alignment. 
-
-From the processed conicity value, the stability of the vehicle can be evaluated depending on longitudinal running velocity, ensuring the generation of the required restoring forces when the formation goes through a open curve, increasing safety against derailment. Nevertheless, for real profiles and after a long period of use, the equivalent taper conicity can be reach values in a higher range due to excessive wear, and must be critically evaluated by a trained professional.       
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
