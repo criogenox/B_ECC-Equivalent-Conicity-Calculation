@@ -60,9 +60,9 @@ Annex E
 (normative)
 Calculation results with reference profiles
 
-| Right / Left / Rail profile combination    | Right / Left Wheels' diameters|
-|:------------------------------------------:|:-----------------------------:|
-|                  A / A / A                 |           920 / 920           |
+| Right / Left / Rail profile combination    | Right / Left Wheels' diameters| Testing |
+|:------------------------------------------:|:-----------------------------:|:-------:|
+|                  A / A / A                 |           920 / 920           |    ✔   |
 |                  B / B / A                 |           920 / 920           |
 |                  H / H / A                 |           920 / 920           |
 |                  I / I / A                 |           920 / 920           |
