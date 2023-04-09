@@ -5,7 +5,7 @@
   <a align="center">
     <img src="https://user-images.githubusercontent.com/53323058/230743599-f2161db5-6e12-447e-87eb-08ee696a7f65.png" alt="Logo" width="500">
   </a>
-  <h3 align="center">Railway applications</h3>
+  <h3 align="center">Railway applications \u300A A \u300B </h3>
   <p align="center">
     Equivalent Conicity Calculation (Benchmark Program)
   </p>
