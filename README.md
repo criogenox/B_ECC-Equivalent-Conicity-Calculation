@@ -74,7 +74,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 <img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
   
-###  <ins>Main benchmark process aspects</ins>
+###  Main benchmark process aspects
 
 * The approach used in the given program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
@@ -87,8 +87,8 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
   * Wheel profiles: R-UIC 519-A/B/H/I
   * Rail profile: S-UIC 519-A
 
-### <ins>Results</ins> 
-The test results using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
+### Testing results 
+The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
 |Test Case|  Right / Left / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
 |:------:|:------------------------------------------:|:-----------------------------------:|:-----------------:|:---------------:|
