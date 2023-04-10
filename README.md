@@ -64,7 +64,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230752262-5618d19f-664f-42c6-b850-0fdd1890bf77.png">
 
-#### Concise summary of the EN15302 Standard scope:
+### Concise summary of the EN15302 Standard scope:
   
 > * This European Standard sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
 >  * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
