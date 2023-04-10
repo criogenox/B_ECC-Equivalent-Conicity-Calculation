@@ -10,7 +10,7 @@
     Equivalent Conicity Calculation (Benchmark Program)
   </p>
 </div>
-
+&#x221A;
 <!-- MOTIVATIONS -->
 ## Global project's motivations
 
@@ -79,13 +79,52 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
  <img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
   
 * The reference profiles used, whose are defined for benchmark calculations in the Annex D to test the algorithm in a wide range of conditions, have been smoothed by cubic interpolation which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
+
+B.2 Steps of the procedure
+In practice this method is applied in the following way:
+  
+a) Based on the function ∆r = r1 – r2 = f(y), find the value yem that corresponds to ∆r = 0 (Figure B.5).
+  
+b) Calculate the S(y) = - ∫ ∆ .dyr function, starting from yem in steps of dy = + 0,1 mm to + y and from yem
+in steps of dy = - 0,1 mm to – y (lower diagram in Figure B.6).
+  
+c) Determine the corresponding amplitudes yemin and yemax and calculate the mean lateral movement yˆ
+(Figure B.6).
+  
+  
+d) Find the functions yemin = f( yˆ ) and yemax = f( yˆ ) which allow to determine, for a given lateral movement of
+the wheelset 2 yˆ , the corresponding minimum and maximum amplitudes yemin and yemax (Figure B.7).
+  
+e) Compute the equivalent conicity tanγ e for a given movement yˆ :
+ find the constant C of Equation (6) (Figure B.8) such that ψemin = 0 for the corresponding yemin
+ calculate the angle ψ by integrating Equation (5) to give:
+Ψ = (-2/er0)*[∫∆rdy − C]
+
+2
+in steps of dy = 0,1 mm
+ calculate the abscissa of the wheelset movement:
+x = f(y) = ∫ Ψ
+dy between yemin and yemax
+which allows to find the wavelength λ of the wheelset's kinematic motion.
+In most cases the integration cannot be done in only one step in the range from yemin to yemax. Therefore
+the wavelength x shall be calculated by adding up dx =
+Ψ
+dy , whereby the step of dy should be ≤ 0,1 mm.
+ calculate the equivalent conicity, applying the Klingel formula
+tan γ e = 0
+2
+ 2er 
+ 
+
+
+λ
+π
+f) Determine the function tanγ e = f( yˆ ) by applying Step B.2 e) for yˆ amplitudes starting at 1 mm up to the
+maximum permitted by the ∆r = f(y) characteristic, with a maximum step ∆ yˆ = 0,5 mm
   
 * As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F, following the equation: ∆(tanγe) = ± min (0,05; 0,5tanγe).
 
-* All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9), using the tabulated data of the following types:
-  
-  * Wheel profiles: R-UIC 519-A/B/H/I
-  * Rail profile: S-UIC 519-A
+* All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9), and using the tabulated data of the following types: Wheel profiles: R-UIC 519-A/B/H/I, Rail profile: S-UIC 519-A.
 
 ### Testing results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
