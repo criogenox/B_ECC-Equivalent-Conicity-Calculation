@@ -10,7 +10,7 @@
     Equivalent Conicity Calculation (Benchmark Program)
   </p>
 </div>
-&#x221A;
+
 <!-- MOTIVATIONS -->
 ## Global project's motivations
 
@@ -98,13 +98,16 @@ the wheelset 2 yˆ , the corresponding minimum and maximum amplitudes yemin and 
 e) Compute the equivalent conicity tanγ e for a given movement yˆ :
  find the constant C of Equation (6) (Figure B.8) such that ψemin = 0 for the corresponding yemin
  calculate the angle ψ by integrating Equation (5) to give:
-Ψ = (-2/er0)*[∫∆rdy − C]
+
+  Ψ = &#x221A;(-2/er0)*[∫∆rdy − C]
 
 2
 in steps of dy = 0,1 mm
  calculate the abscissa of the wheelset movement:
-x = f(y) = ∫ Ψ
-dy between yemin and yemax
+  
+x = f(y) = ∫dy/Ψ 
+  
+  between yemin and yemax
 which allows to find the wavelength λ of the wheelset's kinematic motion.
 In most cases the integration cannot be done in only one step in the range from yemin to yemax. Therefore
 the wavelength x shall be calculated by adding up dx =
