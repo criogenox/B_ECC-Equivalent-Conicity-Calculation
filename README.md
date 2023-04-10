@@ -82,9 +82,9 @@ As validation procedure to determine the acceptance or rejection of the coded al
 ### Concise summary of the EN15302 Standard scope:
   
 > * This European Standard sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
-  * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
-  * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
-  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
+>  * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
+>  * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
+>  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
 
 
