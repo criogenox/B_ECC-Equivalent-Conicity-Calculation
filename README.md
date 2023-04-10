@@ -86,14 +86,13 @@ As validation procedure to determine the acceptance or rejection of the coded al
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
 
 
-
-
 6 Benchmark calculation
 6.1 Overview
 It is necessary to validate the method to be used by means of a benchmark calculation with defined test
 profiles for the whole evaluation system for the equivalent conicity because the following are not defined when
 using this European Standard in practice:
- sample rate of the profile measurement;
+
+   sample rate of the profile measurement;
  smoothing procedure;
  integration method for the evaluation of the wavelength.
 Both the method of determination of the equivalent conicity and the smoothing procedure for profile data shall
@@ -101,42 +100,32 @@ be validated by a benchmark calculation with defined reference-profiles combined
  step 1 checks the interpolation and calculation algorithm;
  when Step 1 has been successfully passed, Step 2 applies defined errors to the data of Step 1;
  when Step 2 has been successfully passed Step 3 then checks the whole candidate system.
-6.2 Validation of evaluation method
-For all steps the calculations shall be done for all combinations of the reference profiles given in Annex E
-including the influence of asymmetrical ∆r -functions produced by different wheel diameters or different wheel
-profiles on both wheels as given from E.5 to E.9.
-If the equivalent conicity is considered at certain amplitude when applying EN 14363 and at this amplitude a
-rapid change in conicity occurs, further measurements and/or calculations in order to determine the
-sensitivities and trends of the rapid change shall be carried out. The further measurements will then be
-included in the assessment of the candidate technique consisting of measuring and calculation algorithm.
-NOTE 1 The reference profiles given in Annex D are only defined for benchmark calculations to test the algorithm in a
-wide range of conditions; they have no practical meaning for a design of a real profile.
-BS EN 15302:2008+A1:2010
-EN 15302:2008+A1:2010 (E)
-20
+
+  6.2 Validation of evaluation method
+
+For all steps the calculations shall be done for all combinations of the reference profiles given in Annex E including the influence of asymmetrical ∆r -functions produced by different wheel diameters or different wheel profiles on both wheels as given from E.5 to E.9. If the equivalent conicity is considered at certain amplitude when applying EN 14363 and at this amplitude a rapid change in conicity occurs, further measurements and/or calculations in order to determine the sensitivities and trends of the rapid change shall be carried out. The further measurements will then be included in the assessment of the candidate technique consisting of measuring and calculation algorithm.
+
+NOTE 1 The reference profiles given in Annex D are only defined for benchmark calculations to test the algorithm in a wide range of conditions; they have no practical meaning for a design of a real profile.
+
 Step 1
-In Step 1, the interpolation and calculation algorithm to be tested shall be applied to the reference profiles in
-Annex D. The achieved results shall be compared with the reference results in Annex E and the defined field
-of allowed tolerances in Annex F. The achieved results shall be within the tolerance field given in Annex F in
-order for the calculation algorithm to successfully pass Step 1 (see Figure 1).
+  
+In Step 1, the interpolation and calculation algorithm to be tested shall be applied to the reference profiles in Annex D. The achieved results shall be compared with the reference results in Annex E and the defined fieldmof allowed tolerances in Annex F. The achieved results shall be within the tolerance field given in Annex F in order for the calculation algorithm to successfully pass Step 1 (see Figure 1).
+
 Step 2
-The purpose of Step 2 is to assess the smoothing procedure. It repeats the calculations of Step 1. In Step 2,
-the smoothing, interpolation and calculation algorithm shall be applied to the reference profiles in Annex D
-with all errors given in Annex G superimposed.
-The effect of a random error and a grid shall be proven by separate calculations for the cases by which an
-error occurs only at the wheel, only at the rail and at both wheel and rail.
-The effects shall be quantified in z-, y- and (z + y)-directions depending on the measuring system. For non
-Cartesian measuring systems appropriate coordinates should be used.
-For each case a sufficient number of calculations (≥ 20) shall be done for different randomized errors related
-to the grid origin position and random limit (see Annex H).
-The assessment of the evaluation procedure (see Figure 2) shall be performed by a comparison of the
+  
+The purpose of Step 2 is to assess the smoothing procedure. It repeats the calculations of Step 1. In Step 2, the smoothing, interpolation and calculation algorithm shall be applied to the reference profiles in Annex D with all errors given in Annex G superimposed. The effect of a random error and a grid shall be proven by separate calculations for the cases by which an error occurs only at the wheel, only at the rail and at both wheel and rail.
+The effects shall be quantified in z-, y- and (z + y)-directions depending on the measuring system. For non Cartesian measuring systems appropriate coordinates should be used. For each case a sufficient number of calculations (≥ 20) shall be done for different randomized errors related to the grid origin position and random limit (see Annex H). The assessment of the evaluation procedure (see Figure 2) shall be performed by a comparison of the
 achieved results with the reference results including the field of tolerances in Annex F.
+
 NOTE 2 The illustrations given in Annex G represent results of typical calculations. These results are considered
 acceptable.
+
 Step 3
+  
 Step 3 checks that the whole system and process of the candidate technique will generate results that are
 sufficiently accurate. It repeats the calculations of Step 2 using the tolerances of the measuring and digitizing
 system to be assessed instead of the prescribed errors in Step 2.
+
 NOTE 3 The illustrations given in Annex G represent results of typical calculations. These results are considered
 acceptable.
 
