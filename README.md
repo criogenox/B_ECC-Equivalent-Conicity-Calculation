@@ -13,7 +13,7 @@
 
 <!-- MOTIVATIONS -->
 
-## Global project's motivations
+### Global project's motivations
 
 <div align="justify">
   <p>
@@ -25,7 +25,7 @@ Back in 2013, when I started my PhD, I would have appreciated to have access to 
    <div>
 
 <!-- ABOUT THE PROJECT -->
-## About the project
+### About the project
 
 <div align="justify">
 
@@ -59,10 +59,9 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUMMARY -->
-## Background & Details
+### Process Summary 
 
 <div align="justify"> 
-  <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230752262-5618d19f-664f-42c6-b850-0fdd1890bf77.png">
 
@@ -73,8 +72,10 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 >  * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
 >  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
+
+<img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
   
-Main benchmark process aspects:
+#### Main benchmark process aspects:
 
 * The approach used in the given program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
@@ -86,9 +87,8 @@ Main benchmark process aspects:
   
   * Wheel profiles: R-UIC 519-A/B/H/I
   * Rail profile: S-UIC 519-A
-  
-<img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
-  
+ 
+#### Results
 The test results using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
 |Test Case|  Right / Left / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
