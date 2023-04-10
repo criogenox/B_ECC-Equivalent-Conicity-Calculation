@@ -129,22 +129,14 @@ system to be assessed instead of the prescribed errors in Step 2.
 NOTE 3 The illustrations given in Annex G represent results of typical calculations. These results are considered
 acceptable.
 
-Annex D
-(normative)
-Reference profiles
+* Annex D (normative) - Reference profiles
 
 D.1.3 Cartesian coordinates
 
-Wheel profiles: R-UIC 519-A/B/H/I
-Rail profile: S-UIC 519-A
-Gauge: 1435.16 mm
-Wheels diameter: 920 mm (unless otherwise indicated)
+* Wheel profiles: R-UIC 519-A/B/H/I
+* Rail profile: S-UIC 519-A
 
-
-
-Annex E
-(normative)
-Calculation results with reference profiles
+* Annex E (normative) Calculation results with reference profiles
 
 |Test Case|  Right / Left / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
 |:------:|:------------------------------------------:|:-----------------------------------:|:-----------------:|:---------------:|
@@ -159,11 +151,9 @@ Calculation results with reference profiles
 |   E9   |                  A / B / A                 |           920 / 920                 |         "         |       ✔        |
 
 
-Annex F
-(normative)
-Tolerances on equivalent conicity
-The tolerances given in this annex are based on the following equation:
-∆(tanγe) = ± min (0,05; 0,5tanγe)
+* Annex F (normative) - Tolerances on equivalent conicity
+
+The tolerances given in this annex are based on the following equation: ∆(tanγe) = ± min (0,05; 0,5tanγe)
   
   </div>
 
