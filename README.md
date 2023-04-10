@@ -12,7 +12,6 @@
 </div>
 
 <!-- MOTIVATIONS -->
-
 ### Global project's motivations
 
 <div align="justify">
