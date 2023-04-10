@@ -85,25 +85,24 @@ As validation procedure to determine the acceptance or rejection of the coded al
 
 
 6 Benchmark calculation
-6.1 Overview
-It is necessary to validate the method to be used by means of a benchmark calculation with defined test
-profiles for the whole evaluation system for the equivalent conicity because the following are not defined when
-using this European Standard in practice:
-
-   sample rate of the profile measurement;
- smoothing procedure;
- integration method for the evaluation of the wavelength.
-Both the method of determination of the equivalent conicity and the smoothing procedure for profile data shall
-be validated by a benchmark calculation with defined reference-profiles combined with random- and griderrors. This is achieved by a three step process:
- step 1 checks the interpolation and calculation algorithm;
- when Step 1 has been successfully passed, Step 2 applies defined errors to the data of Step 1;
- when Step 2 has been successfully passed Step 3 then checks the whole candidate system.
 
   6.2 Validation of evaluation method
 
-For all steps the calculations shall be done for all combinations of the reference profiles given in Annex E including the influence of asymmetrical ∆r -functions produced by different wheel diameters or different wheel profiles on both wheels as given from E.5 to E.9. If the equivalent conicity is considered at certain amplitude when applying EN 14363 and at this amplitude a rapid change in conicity occurs, further measurements and/or calculations in order to determine the sensitivities and trends of the rapid change shall be carried out. The further measurements will then be included in the assessment of the candidate technique consisting of measuring and calculation algorithm.
+* Annex D (normative) - Reference profiles
 
-NOTE 1 The reference profiles given in Annex D are only defined for benchmark calculations to test the algorithm in a wide range of conditions; they have no practical meaning for a design of a real profile.
+The reference profiles used whose are defined for benchmark calculations to test the algorithm in a wide range of conditions have been smoothed by cubic interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
+  
+  design of a real profile.
+The reference profiles used are whose defined for benchmark calculations to test the algorithm in a wide range of conditions; they have no practical meaning for a design of a real profile.
+D.1.3 Cartesian coordinates
+
+* Wheel profiles: R-UIC 519-A/B/H/I
+* Rail profile: S-UIC 519-A
+  
+All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9).
+  
+  
+
 
 Step 1
   
@@ -127,12 +126,7 @@ system to be assessed instead of the prescribed errors in Step 2.
 NOTE 3 The illustrations given in Annex G represent results of typical calculations. These results are considered
 acceptable.
 
-* Annex D (normative) - Reference profiles
 
-D.1.3 Cartesian coordinates
-
-* Wheel profiles: R-UIC 519-A/B/H/I
-* Rail profile: S-UIC 519-A
 
 * Annex E (normative) Calculation results with reference profiles
 
