@@ -66,17 +66,22 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
 <div  align="justify">
-To confirm whether an alternative evaluation procedure can achieve the results specified in this European
+
+  To confirm whether an alternative evaluation procedure can achieve the results specified in this European
 Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
 Standard and outlined below in Steps 1, 2 and 3:
+  
+Benchmark process aspects needs:
 
-In Step 1, tables of reference profiles in Annex D are applied to the interpolation and calculation algorithm
-which allows the location of the contact points in order to calculate the rolling radius difference as a function of
-the lateral position of the wheelset. Starting from this function the equivalent conicity is calculated as a
-function of the amplitude of the oscillation. A comparison of the achieved results with the reference results in
-Annex E and a defined field of allowed tolerances in Annex F determine the acceptance or rejection of the
-assessed evaluation procedure (see Figure 1).
+The approach used in the given program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
+  
+As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F.
 
+  
+  
+  Reference profiles in Annex D must be smoothed by interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset.
+  Starting from this function the equivalent conicity is calculated as a function of the amplitude of the oscillation. 
+  
 1 Scope
 This European Standard establishes an evaluation procedure for determining equivalent conicity. A
 benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent
@@ -94,13 +99,7 @@ useful or necessary to use more sophisticated theories. These methods are not wi
 European Standard.
 For the application of this European Standard some general recommendations are given in Annex I. 
 
-This project was born as an aditional work to fullfil a personal pending asignature from my PhD days. Nothing more, nothing less.
-  
-As the software name says: the program is capable of characterise the wheel-rail contact, useful in railway sector dynamics analyses. 
-  
-The equivalent conicity acts as a safety parameter which describes the behavior and dynamic interaction between rails & wheels running on a straight or large radius (curved) track. This way, the equivalent conicity could indicate the presence of instable movement leading to a derailment event, therefore It can be used to determine a critical speed of a train at any type of track.
-  
-This crucial parameter could be calculated based on two standards, namely **UIC 519** and **EN 15302**. The non-linear method described in the last one is used by the giving software.
+
 
 This European Standard establishes an evaluation procedure for determining equivalent conicity. A
 benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent
@@ -113,7 +112,6 @@ including random- and grid- errors of the measuring system. It sets down the pri
 need to be followed but does not impose any particular numerical calculation method.
 
 
-The approach used in the giving program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
 6 Benchmark calculation
 6.1 Overview
