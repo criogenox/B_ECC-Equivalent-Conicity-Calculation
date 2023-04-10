@@ -12,7 +12,7 @@
 </div>
 
 <!-- MOTIVATIONS -->
-### Global project's motivations
+## Global project's motivations
 
 <div align="justify">
   <p>
@@ -24,7 +24,7 @@ Back in 2013, when I started my PhD, I would have appreciated to have access to 
    <div>
 
 <!-- ABOUT THE PROJECT -->
-### About the project
+## About the project
 
 <div align="justify">
 
@@ -58,7 +58,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUMMARY -->
-### Process Summary 
+## Process Summary 
 
 <div align="justify"> 
 
