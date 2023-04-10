@@ -64,17 +64,8 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
 
-  To confirm whether an alternative evaluation procedure can achieve the results specified in this European
-Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
-Standard and outlined below in Steps 1, 2 and 3:
-  
-Benchmark process aspects needs:
+<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230752262-5618d19f-664f-42c6-b850-0fdd1890bf77.png">
 
-The approach used in the given program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
-  
-As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F.
-
- 
 #### Concise summary of the EN15302 Standard scope:
   
 > * This European Standard sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
@@ -82,54 +73,24 @@ As validation procedure to determine the acceptance or rejection of the coded al
 >  * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
 >  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
-
-
-6 Benchmark calculation
-
-  6.2 Validation of evaluation method
-
-* Annex D (normative) - Reference profiles
-
-The reference profiles used whose are defined for benchmark calculations to test the algorithm in a wide range of conditions have been smoothed by cubic interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
   
-  design of a real profile.
-The reference profiles used are whose defined for benchmark calculations to test the algorithm in a wide range of conditions; they have no practical meaning for a design of a real profile.
-D.1.3 Cartesian coordinates
+Main benchmark process aspects:
 
-* Wheel profiles: R-UIC 519-A/B/H/I
-* Rail profile: S-UIC 519-A
+* The approach used in the given program is based on the method described in Annex B for determining the equivalent conicity by integration of the nonlinear differential equation. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
+
+* The reference profiles used, whose are defined for benchmark calculations in the Annex D to test the algorithm in a wide range of conditions, have been smoothed by cubic interpolation which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset. 
   
-All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9).
+* As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F, following the equation: ∆(tanγe) = ± min (0,05; 0,5tanγe).
+
+* All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9), using the tabulated data of the following types:
   
+  * Wheel profiles: R-UIC 519-A/B/H/I
+  * Rail profile: S-UIC 519-A
   
-
-
-Step 1
+<img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
   
-In Step 1, the interpolation and calculation algorithm to be tested shall be applied to the reference profiles in Annex D. The achieved results shall be compared with the reference results in Annex E and the defined fieldmof allowed tolerances in Annex F. The achieved results shall be within the tolerance field given in Annex F in order for the calculation algorithm to successfully pass Step 1 (see Figure 1).
-
-Step 2
+The test results using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
-The purpose of Step 2 is to assess the smoothing procedure. It repeats the calculations of Step 1. In Step 2, the smoothing, interpolation and calculation algorithm shall be applied to the reference profiles in Annex D with all errors given in Annex G superimposed. The effect of a random error and a grid shall be proven by separate calculations for the cases by which an error occurs only at the wheel, only at the rail and at both wheel and rail.
-The effects shall be quantified in z-, y- and (z + y)-directions depending on the measuring system. For non Cartesian measuring systems appropriate coordinates should be used. For each case a sufficient number of calculations (≥ 20) shall be done for different randomized errors related to the grid origin position and random limit (see Annex H). The assessment of the evaluation procedure (see Figure 2) shall be performed by a comparison of the
-achieved results with the reference results including the field of tolerances in Annex F.
-
-NOTE 2 The illustrations given in Annex G represent results of typical calculations. These results are considered
-acceptable.
-
-Step 3
-  
-Step 3 checks that the whole system and process of the candidate technique will generate results that are
-sufficiently accurate. It repeats the calculations of Step 2 using the tolerances of the measuring and digitizing
-system to be assessed instead of the prescribed errors in Step 2.
-
-NOTE 3 The illustrations given in Annex G represent results of typical calculations. These results are considered
-acceptable.
-
-
-
-* Annex E (normative) Calculation results with reference profiles
-
 |Test Case|  Right / Left / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
 |:------:|:------------------------------------------:|:-----------------------------------:|:-----------------:|:---------------:|
 |   E1   |                  A / A / A                 |           920 / 920                 |      1435.16      |       ✔        |
@@ -141,18 +102,6 @@ acceptable.
 |   E7   |                  H / H / A                 |               "                     |         "         |       ✔        |
 |   E8   |                  I / I / A                 |               "                     |         "         |       ✔        |
 |   E9   |                  A / B / A                 |           920 / 920                 |         "         |       ✔        |
-
-
-* Annex F (normative) - Tolerances on equivalent conicity
-
-The tolerances given in this annex are based on the following equation: ∆(tanγe) = ± min (0,05; 0,5tanγe)
-
-<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230752262-5618d19f-664f-42c6-b850-0fdd1890bf77.png">
-
-  
-The method proposed by the EN 15302 standard is based on the analysis of the kinetic movement of a pair mounted on a straight track or large radius curved paths. The determination of the equivalent conicity is performed by numerically integrating the function ∆r, representing the longitudinal distance traveled in terms of lateral displacement, x = f(y). From the latter, the wavelength λ is obtained for lateral displacements in the interval [1-7 mm] with increments ∆y ≤ 0.1mm, to finally determine the equivalent conicity by using the Klingel's formula for a conical profile whose kinematic movement presents the same wavelength.
-  
-<img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
  
 </div>
 
