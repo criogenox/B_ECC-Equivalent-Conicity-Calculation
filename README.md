@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a align="center">
-    <img src="https://user-images.githubusercontent.com/53323058/230743599-f2161db5-6e12-447e-87eb-08ee696a7f65.png" alt="Logo" width="500">
+    <img src="https://user-images.githubusercontent.com/53323058/230838012-86cdc9cd-a410-43d1-86ab-0c32ce5c35f7.png" alt="Logo" width="500">
   </a>
   <h3 align="center">Railway applications &#x300A; B &#x300B;</h3>
   <p align="center">
