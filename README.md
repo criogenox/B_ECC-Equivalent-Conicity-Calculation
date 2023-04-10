@@ -86,11 +86,11 @@ In reference to the steps of the procedure, the key of success lies in the prope
   
 * The S(y) = - ∫ ∆rdy function of step b),
   
-* The angle of the movement in the x-y-plane: Ψ = &#x221A;(-2/er0)*[∫∆rdy − C], and
+* The angle of the movement in the x-y-plane: Ψ&#x00B2; = (-2/er0) * [∫ ∆rdy − C], and
 
-* The abscissa of the wheelset movement: x = f(y) = ∫dy/Ψ, both showed in step e).
+* The abscissa of the wheelset movement: x = f(y) = ∫ dy/Ψ, both showed in step e).
   
-All these approximations were performed by Riemann sums for the step interval of 0.1 mm. In the particular case of S(y) function was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
+All these approximations were performed by Riemann sums for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
   
 ### Testing results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
@@ -114,13 +114,10 @@ The status of validation of the tests using the coded algorithm, for each ∆r f
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Improve Potential Contact Points Detection 
-- [x] Asymetric Cases Implementation
-- [x] Stand-alone Unified Version
-- [ ] Improve Error Events Handling
-- [ ] Increse Profiles Data Base (Extending to APTA/ARR Standards)
-- [ ] More & More Testing (Including Worn Cases)
-- [ ] Implementation of Output Options (PDFBox library)
+- [x] E1-3 Symetric Cases Implementation
+- [x] Improve Detection of ∆r = 0 Point (case E4) 
+- [x] E5-8 Asymetric Cases Implementation
+- [x] Algorithm generalization for dissimilar r/l wheel profiles (case E9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
