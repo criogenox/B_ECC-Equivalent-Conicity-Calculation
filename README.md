@@ -17,7 +17,7 @@
 
 <div align="justify">
   <p>
-Back in 2013, when I started my PhD, I would have appreciated to have access to more information and resources. Everything done was the product of sailing in a storm, alone, with a boat and only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
+Back in 2013, when I started my PhD, I would have appreciated to have access to more information and resources. Everything done was the product of sailing in a storm, with a boat and only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
    </p>
  <p align="right">
     :muscle: don't let anyone get you down :muscle:
@@ -63,7 +63,6 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 <div align="justify"> 
   <!-- <img align="right" src="https://user-images.githubusercontent.com/53323058/230650942-4c2e0ad4-2d52-46fe-aa67-8860c642e5f6.png" width="500"> -->
-<div  align="justify">
 
   To confirm whether an alternative evaluation procedure can achieve the results specified in this European
 Standard, three aspects of the process need to be evaluated in a benchmark process given in this European
@@ -75,7 +74,6 @@ The approach used in the given program is based on the method described in Annex
   
 As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F.
 
-  
  
 #### Concise summary of the EN15302 Standard scope:
   
@@ -154,8 +152,6 @@ D.1.3 Cartesian coordinates
 * Annex F (normative) - Tolerances on equivalent conicity
 
 The tolerances given in this annex are based on the following equation: ∆(tanγe) = ± min (0,05; 0,5tanγe)
-  
-  </div>
 
 <img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/230752262-5618d19f-664f-42c6-b850-0fdd1890bf77.png">
 
