@@ -29,8 +29,6 @@ Back in 2013, when I started my PhD, I would have appreciated to have access to 
 
 <div align="justify">
 
-### Introduction
-
 The wheel-rail contact geometry is a fundamental topic to be analized to explain the dynamic running behaviour of a railway vehicle. The EN15302 (UIC 519) European Standard establishes an evaluation procedure for determining equivalent conicity and a benchmark calculation is specified to achieve comparable results on a consistent basis.
   
 This project aims to code that procedure and test it under reference cases with the conditions mentioned in the Annex E, and verify the obtained values against the tolerance data given in Annex F. 
@@ -79,7 +77,7 @@ As validation procedure to determine the acceptance or rejection of the coded al
 
   
  
-### Concise summary of the EN15302 Standard scope:
+#### Concise summary of the EN15302 Standard scope:
   
 > * This European Standard sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
 >  * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
