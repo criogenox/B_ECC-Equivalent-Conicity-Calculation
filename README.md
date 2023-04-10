@@ -78,38 +78,15 @@ The approach used in the given program is based on the method described in Annex
 As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F.
 
   
+ 
+### Concise summary of the EN15302 Standard scope:
   
-  Reference profiles in Annex D must be smoothed by interpolation, which allows the location of the contact points in order to calculate the rolling radius difference as a function of the lateral position of the wheelset.
-  Starting from this function the equivalent conicity is calculated as a function of the amplitude of the oscillation. 
-  
-1 Scope
-This European Standard establishes an evaluation procedure for determining equivalent conicity. A
-benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent
-conicity, which may be calculated by different methods not given in this European Standard. This European
-Standard also proposes possible calculation methods. Informative examples of the use of the Klingel formula
+> * This European Standard sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
+  * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
+  * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
+  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
-This European Standard includes reference profiles, profile combinations, tolerances and reference results
-with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system
-including random- and grid- errors of the measuring system. It sets down the principles of calculation that
-need to be followed but does not impose any particular numerical calculation method.
-This European Standard does not define limits for the equivalent conicity and gives no tolerances for the rail
-profile and the wheel profile to achieve acceptable results for the conicity.
-For purposes outside the scope of this European Standard (e.g. simulation of vehicle behaviour) it can be
-useful or necessary to use more sophisticated theories. These methods are not within the scope of this
-European Standard.
-For the application of this European Standard some general recommendations are given in Annex I. 
 
-
-
-This European Standard establishes an evaluation procedure for determining equivalent conicity. A
-benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent
-conicity, which may be calculated by different methods not given in this European Standard. This European
-Standard also proposes possible calculation methods. Informative examples of the use of the Klingel formula
-(see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
-This European Standard includes reference profiles, profile combinations, tolerances and reference results
-with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system
-including random- and grid- errors of the measuring system. It sets down the principles of calculation that
-need to be followed but does not impose any particular numerical calculation method.
 
 
 
