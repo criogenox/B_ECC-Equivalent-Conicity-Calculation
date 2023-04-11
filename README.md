@@ -60,7 +60,9 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 <div align="center">
   <p align="center">
       Neither fxml nor xml files are used in this project. 
+    
       Manual design & implementation. 
+    
       Good practice to really understand what you actually are doing.
   </p>
 </div>     
