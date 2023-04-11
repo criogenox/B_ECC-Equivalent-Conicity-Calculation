@@ -58,9 +58,9 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 ### Additional info
 
-* Manual GUI design & implementation. No fxml file is used in this project (SceneBuilder). Good practice to really understand what you actually are doing.
+* Manual GUI design & implementation. No fxml file was used in this project (SceneBuilder). Good practice to really understand what you actually are doing.
   
-* No Maven artifacts are used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program.
+* No Maven artifacts were used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program.
   
 * For a more in-depth understanding of the implemented equations, formulas, and algorithms, as many comments as possible have been included.
 </div>
