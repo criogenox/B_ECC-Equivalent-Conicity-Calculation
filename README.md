@@ -62,7 +62,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 <a>Neither fxml nor xml files are used in this project. Manual design & implementation. Good practice to really understand what you actually are doing</a>
 </div>
 <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
-<a href="/donate">DONATkkjjjhkjhkE</a>
+<a>DONATkkjjjhkjhkE</a>
 </div>
 
 </div>
