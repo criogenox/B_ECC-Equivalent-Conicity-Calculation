@@ -62,7 +62,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
   
 * No Maven artifacts are used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program.
   
-* As many comments as possible have been included for a better understanding of the implemented expressions, formulas and algorithms.
+* For a more in-depth understanding of the implemented equations, formulas, and algorithms, as many comments as possible have been included.
 </div>
      
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
