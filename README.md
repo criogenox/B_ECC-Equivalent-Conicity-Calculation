@@ -95,7 +95,7 @@ In reference to the steps of the procedure, the key of success lies in the prope
   
 All these approximations were performed by Riemann sums for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
   
-### Code Details
+### Code miscellaneous info
 
 * Manual GUI design & implementation. Neither fxml nor xml files are used in this project (SceneBuilder / Maven). Good practice to really understand what you actually are doing.
 
