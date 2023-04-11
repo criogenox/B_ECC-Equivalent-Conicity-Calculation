@@ -56,7 +56,11 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
   </a> 
 </div>
-
+<div align="center">
+ <p>
+  **Neither fxml nor xml files are used in this project. Manual design & implementation. Good practice to really understand what you actually are doing.**
+  <p/>
+</div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUMMARY -->
