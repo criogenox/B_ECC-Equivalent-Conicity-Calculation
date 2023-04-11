@@ -95,6 +95,12 @@ In reference to the steps of the procedure, the key of success lies in the prope
   
 All these approximations were performed by Riemann sums for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
   
+### Code Details
+
+* Manual GUI design & implementation. Neither fxml nor xml files are used in this project (SceneBuilder / Maven). Good practice to really understand what you actually are doing.
+
+* As many comments as possible have been included for a better understanding of the implemented expressions, formulas and algorithms.
+
 ### Testing results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
