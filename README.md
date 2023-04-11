@@ -56,35 +56,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
   </a> 
 </div>
-<div align="center">
- 
-  <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
-<a>Neither fxml nor xml files are used in this project. Manual design & implementation. Good practice to really understand what you actually are doing</a>
-</div>
-<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
-<a>DONATkkjjjhkjhkE</a>
-</div>
 
-  <span style="color:red">
-Text content
-</span>
-  <h1 style="color: red;"> Welcome to freeCodeCamp! </h1>
-</div>
-</div>
-  
-  // Color Name Value
-<p style="color: skyblue">Welcome to freeCodeCamp!</p>
-
-// Hex Value
-<p style="color: #87CEEB">Welcome to freeCodeCamp!</p>
-
-// RGB Value
-<p style="color: rgb(135,206,235)">Welcome to freeCodeCamp!</p>
-
-// HSL Value
-<p style="color: hsl(197, 71%, 73%)">Welcome to freeCodeCamp!</p>
-  
-  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
   
