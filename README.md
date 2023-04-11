@@ -82,7 +82,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 >  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
   
-###  Main benchmark process aspects
+### Computing processes main aspects
   
  <img align="right" src="https://user-images.githubusercontent.com/53323058/230752237-ac9932c3-0450-4b93-bc66-ae3b8b6b104e.png" width="500">
 
