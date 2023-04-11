@@ -68,7 +68,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
   <span style="color:red">
 Text content
 </span>
-  
+  <h1 style="color: value;"> Welcome to freeCodeCamp! </h1>
 </div>
 </div>
   
