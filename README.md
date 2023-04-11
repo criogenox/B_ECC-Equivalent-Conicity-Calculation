@@ -55,6 +55,12 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
   <a href="https://netbeans.apache.org/">
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740868-4ac4dc6c-dc63-494b-8817-01ce016d8347.png" alt="Logo" width="160" height="65"/>
   </a> 
+
+### Code miscellaneous info
+
+* Manual GUI design & implementation. Neither fxml nor xml files are used in this project (SceneBuilder / Maven). Good practice to really understand what you actually are doing.
+
+* As many comments as possible have been included for a better understanding of the implemented expressions, formulas and algorithms.
 </div>
      
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -94,12 +100,6 @@ In reference to the steps of the procedure, the key of success lies in the prope
 * The abscissa of the wheelset movement: x = f(y) = ∫ dy/Ψ, both showed in step e).
   
 All these approximations were performed by Riemann sums for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
-  
-### Code miscellaneous info
-
-* Manual GUI design & implementation. Neither fxml nor xml files are used in this project (SceneBuilder / Maven). Good practice to really understand what you actually are doing.
-
-* As many comments as possible have been included for a better understanding of the implemented expressions, formulas and algorithms.
 
 ### Testing results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
