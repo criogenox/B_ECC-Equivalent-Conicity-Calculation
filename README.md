@@ -91,7 +91,8 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 * As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F, following the equation: ∆(tanγe) = ± min (0,05; 0,5tanγe).
 
 * All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9), and using the tabulated data of the following types: Wheel profiles: R-UIC 519-A/B/H/I, Rail profile: S-UIC 519-A.
-  
+
+----
 In reference to the steps of the procedure, the key of success lies in the proper approximation of the integrals, that is:
   
 * The S(y) = - ∫ ∆rdy function of step b),
@@ -101,6 +102,7 @@ In reference to the steps of the procedure, the key of success lies in the prope
 * The abscissa of the wheelset movement: x = f(y) = ∫ dy/Ψ, both showed in step e).
   
 All these approximations were performed by Riemann sums for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
+----
 
 ### Benchmarks results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
