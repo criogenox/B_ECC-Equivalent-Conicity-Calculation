@@ -100,6 +100,8 @@ In reference to the steps of the procedure, the key of success lies in the `prop
 
 * The abscissa of the wheelset movement: x = f(y) = ∫ dy/Ψ, both showed in step e).
 
+All these approximations were performed by a `Riemann sum` for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
+
 ### Benchmarks results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
@@ -116,9 +118,6 @@ The status of validation of the tests using the coded algorithm, for each ∆r f
 |   E9   |                  A / B / A                 |           920 / 920                 |         "         |       ✔        |
 </div>
 
-----     
-All these approximations were performed by a `Riemann sum` for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
-----
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
