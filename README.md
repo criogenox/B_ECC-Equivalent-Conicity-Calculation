@@ -99,9 +99,11 @@ In reference to the steps of the procedure, the key of success lies in the `prop
 * The angle of the movement in the x-y-plane: Ψ&#x00B2; = (-2/er0) * [∫ ∆rdy − C], and
 
 * The abscissa of the wheelset movement: x = f(y) = ∫ dy/Ψ, both showed in step e).
-  
+</div>
+----     
 All these approximations were performed by a `Riemann sum` for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
-  
+----
+<div>  
 ### Benchmarks results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
