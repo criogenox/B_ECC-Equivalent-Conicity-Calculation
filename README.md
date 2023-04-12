@@ -77,9 +77,9 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 ### Concise summary of the EN15302 Standard scope:
   
 > * This European Standard sets down the principles of calculation that need to be followed but does not impose any particular numerical calculation method.
->  * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
->  * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
->  * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
+> * It establishes an evaluation procedure for determining equivalent conicity. A benchmark calculation is specified to achieve comparable results on a consistent basis for the equivalent conicity, which may be calculated by different methods not given in this European Standard.
+> * It includes reference profiles, profile combinations, tolerances and reference results with tolerance limits, which allow the user to assess the acceptability of a measuring and calculation system including random- and grid- errors of the measuring system.
+> * Also this European Standard proposes possible calculation methods. Informative examples of the use of the Klingel formula
 (see Annex B) and linear regression of the ∆r-function (see Annex C) are included in this European Standard.
   
 ### Computing processes main aspects
@@ -99,11 +99,7 @@ In reference to the steps of the procedure, the key of success lies in the `prop
 * The angle of the movement in the x-y-plane: Ψ&#x00B2; = (-2/er0) * [∫ ∆rdy − C], and
 
 * The abscissa of the wheelset movement: x = f(y) = ∫ dy/Ψ, both showed in step e).
-</div>
-----     
-All these approximations were performed by a `Riemann sum` for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
-----
-<div>  
+
 ### Benchmarks results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
@@ -118,9 +114,11 @@ The status of validation of the tests using the coded algorithm, for each ∆r f
 |   E7   |                  H / H / A                 |               "                     |         "         |       ✔        |
 |   E8   |                  I / I / A                 |               "                     |         "         |       ✔        |
 |   E9   |                  A / B / A                 |           920 / 920                 |         "         |       ✔        |
- 
 </div>
 
+----     
+All these approximations were performed by a `Riemann sum` for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
+----
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
