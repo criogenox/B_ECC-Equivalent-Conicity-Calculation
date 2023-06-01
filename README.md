@@ -105,7 +105,7 @@ All these approximations were performed by a `Riemann sum` for the step interval
 ### Benchmarks results 
 The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
   
-|Test Case|  Right (W)/ Left (W) / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
+|Test Case|  Right (W) / Left (W) / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
 |:------:|:------------------------------------------:|:-----------------------------------:|:-----------------:|:---------------:|
 |   E1   |                  A / A / A                 |           920 / 920                 |      1435.16      |       ✔        |
 |   E2   |                  B / B / A                 |               "                     |         "         |       ✔        |
