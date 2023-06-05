@@ -1,0 +1,58 @@
+.default-color0.chart-series-line { -fx-stroke: transparent; }
+.default-color1.chart-series-line { -fx-stroke: green; -fx-stroke-dash-array: 7, 5; }
+.default-color2.chart-series-line { -fx-stroke: red; -fx-stroke-dash-array: 7, 5; }
+
+.default-color0.chart-line-symbol { /* hollow circle */
+    -fx-background-color: blue, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 2.5px;
+}
+.default-color1.chart-line-symbol { 
+    -fx-background-color: transparent, transparent; 
+}
+
+.default-color2.chart-line-symbol { 
+    -fx-background-color: transparent, transparent; 
+}
+
+.default-color0.chart-legend-item-symbol{
+    -fx-background-color: blue;
+ }
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: green;
+    -fx-shape: "M1,0 L5,0 L15,0 L1,1 Z";
+ }
+.default-color2.chart-legend-item-symbol{
+    -fx-background-color: red;
+    -fx-shape: "M1,0 L5,0 L15,0 L1,1 Z";
+ }
+#dr .default-color0.chart-series-line { 
+    -fx-stroke: blue;
+}
+#con .default-color0.chart-series-line { 
+    -fx-stroke: transparent;
+}
+#con .default-color0.chart-line-symbol { /* hollow circle */
+    -fx-background-color: blue, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 2.5px;
+}
+
+#con .default-color1.chart-series-line { 
+    -fx-stroke: red; 
+    -fx-stroke-width: 2px; 
+    -fx-stroke-dash-array: 7, 5;
+}
+
+#con .default-color1.chart-line-symbol { 
+    -fx-background-color: transparent; 
+}
+
+#con .default-color2.chart-line-symbol { /* hollow circle */
+    -fx-background-color: red, white;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 7px;
+}
