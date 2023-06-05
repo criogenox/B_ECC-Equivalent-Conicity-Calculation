@@ -18,7 +18,7 @@
   <p>
 Quoting my own words:
     
-> Back in time, when I decided to enter in these unfamiliar waters, I would have appreciated to have access to more information and resources. Everything done was the product of sailing through a storm, on a old boat with only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
+> Back in time, when I decided to enter these unfamiliar waters, I would have appreciated having access to more information and resources. Everything done was the product of sailing through a storm, on a old boat with only 1 oar. I learned from experience, but the learning path doesn't need to be like this. I'm not complaining about anything, I just pretend that if someone is interested in the information, they have access to help that I didn't have.
    </p>
  <p align="right">
     :muscle: don't let anyone get you down :muscle:
@@ -30,7 +30,7 @@ Quoting my own words:
 
 <div align="justify">
 
-The wheel-rail contact geometry is a fundamental topic to be analized to explain the dynamic running behaviour of a railway vehicle. The EN15302 (UIC 519) European Standard establishes an evaluation procedure for determining equivalent conicity and a benchmark calculation is specified to achieve comparable results on a consistent basis.
+The wheel-rail contact geometry is a fundamental topic to be analyzed to explain the dynamic running behavior of a railway vehicle. The EN15302 (UIC 519) European Standard establishes an evaluation procedure for determining equivalent conicity and a benchmark calculation is specified to achieve comparable results on a consistent basis.
   
 This project aims to code that procedure and test it under reference cases with the conditions mentioned in the Annex E, and verify the obtained values against the tolerance data given in Annex F. 
 
@@ -38,7 +38,7 @@ According to the EN15302 Standard, we can summarize the importance of the entire
 
 > Among the parameters by which the dynamic behaviour of a rail vehicle is characterised, the conicity plays an essential role since it allows the satisfactory appreciation of the wheel-rail contact on tangent track and on very large-radius curves (when operated with low cant deficiencies). Klingel’s theory states that the wavelength described by a wheelset, with conical profiles while running on a track, depends on the cone angle of the wheel profile and the distance between contact patches. For practical wheel profiles with changing cone angles along the profile it is possible to evaluate the wavelength of the wheelsets movement by integration of the function of rolling radius difference depending on the lateral movement of the wheelset on the track. Equivalent conicity is evaluated by comparison of this wavelength with the one evaluated according to Klingel's theory.
 
-Nevertheless, It is necessary to follow a clear and concise procedure for the evaluation of equivalent conicity and results must to be consistent. To achieve this purpose, it's possible to use different evaluation procedures (given in this European Standard), and verify the obtained results in accordance with the calculation ones using reference profiles specified in Annex D.
+Nevertheless, It is necessary to follow a clear and concise procedure for the evaluation of equivalent conicity and results must be consistent. To achieve this purpose, it's possible to use different evaluation procedures (given in this European Standard), and verify the obtained results in accordance with the calculation ones using reference profiles specified in Annex D.
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -60,7 +60,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 * Manual GUI design & implementation. No fxml file was used in this project (SceneBuilder). Good practice to really understand what you actually are doing.
   
-* No Maven artifacts were used (required libraries are enclosed in lib folder). JavaFX library must be properly configured in your IDE to run the program (minimum requirement = SDK v19).
+* No Maven artifacts were used (required libraries are enclosed in lib folder). JavaFX's library must be properly configured in your IDE to run the program (minimum requirement = SDK v19).
   
 * For a more in-depth understanding of the implemented equations, formulas, and algorithms, as many comments as possible have been included.
 </div>
@@ -88,11 +88,11 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 * The `approach` used in the given program is based on the method described in Annex B for determining the equivalent conicity by `integration of the nonlinear differential equation`. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
-* As validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, taking into acount the defined field of allowed tolerances in Annex F, following the equation: ∆(tanγe) = ± min (0,05; 0,5tanγe).
+* As a validation procedure to determine the acceptance or rejection of the coded algorithm, the comparison of the achieved results with the reference results in Annex E has been used, considering the defined field of allowed tolerances in Annex F, following the equation: ∆(tanγe) = ± min (0,05; 0,5tanγe).
 
-* All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symetrics cases E1-4 & asymetric ones E5-9), and using the tabulated data of the following types: Wheel profiles: R-UIC 519-A/B/H/I, Rail profile: S-UIC 519-A.
+* All the calculations have been done for the 9 combinations of the reference profiles given in Annex E (symmetrics cases E1-4 & asymmetric ones E5-9), and using the tabulated data of the following types: Wheel profiles: R-UIC 519-A/B/H/I, Rail profile: S-UIC 519-A.
 
-In reference to the steps of the procedure, the key of success lies in the `proper approximation` of the integrals, that is:
+Regarding the steps of the procedure, the key of success lies in the `proper approximation` of the integrals, that is:
   
 * The S(y) = - ∫ ∆rdy function of step b),
   
@@ -103,7 +103,7 @@ In reference to the steps of the procedure, the key of success lies in the `prop
 All these approximations were performed by a `Riemann sum` for the step interval of 0.1 mm. In the particular case of S(y) function, it was done in two different stages depending on the sign of the lateral displacement for ∆r = 0 reference, determined in step a).
 
 ### Benchmarks results 
-The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, are summarize in the following table.
+The status of validation of the tests using the coded algorithm, for each ∆r function present in the Standard, is summarized in the following table.
   
 |Test Case|  Right (W) / Left (W) / Rail Profiles Combination  | Right / Left Wheels' Diameters [mm]| Gauge Track [mm]  | Testing Status |
 |:------:|:------------------------------------------:|:-----------------------------------:|:-----------------:|:---------------:|
@@ -123,9 +123,9 @@ The status of validation of the tests using the coded algorithm, for each ∆r f
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] E1-3 symetric cases implementation
+- [x] E1-3 symmetric cases implementation
 - [x] Improve detection of ∆r = 0 point (case E4) 
-- [x] E5-8 asymetric cases implementation
+- [x] E5-8 asymmetric cases implementation
 - [x] Algorithm generalization for dissimilar r/l wheel profiles (case E9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
