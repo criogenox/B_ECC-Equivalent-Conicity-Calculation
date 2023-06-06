@@ -72,7 +72,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 <div align="justify"> 
 
-<img align="right" width="500" src="https://private-user-images.githubusercontent.com/53323058/243575521-b2dea12c-9381-421c-8a13-6b36d0854ef1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MDM1MTMyLCJuYmYiOjE2ODYwMzQ4MzIsInBhdGgiOiIvNTMzMjMwNTgvMjQzNTc1NTIxLWIyZGVhMTJjLTkzODEtNDIxYy04YTEzLTZiMzZkMDg1NGVmMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYwNlQwNzAwMzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYmZlODA1ZmZmZjEzNzExMTAzYWM0NWE4MzhmOWM2ZGJjMzBjN2E2ZjIwN2FkMTA5MTNjMGU4ZGUxMDkzYjY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gqmiCQkUYUJZaIEUetQzhITcxMz6BytQMYCvHZG4ynA">
+<img align="right" width="500" src="https://user-images.githubusercontent.com/53323058/243652738-ff93181a-faad-43fd-9815-9b0cf20a7b7d.png">
 
 ### Concise summary of the EN15302 Standard scope:
   
@@ -84,7 +84,7 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
   
 ### Computing processes main aspects
   
- <img align="right" src="https://private-user-images.githubusercontent.com/53323058/243576158-391a6c54-b8b5-4d31-9505-668eb9dfb51b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MDM1MjI1LCJuYmYiOjE2ODYwMzQ5MjUsInBhdGgiOiIvNTMzMjMwNTgvMjQzNTc2MTU4LTM5MWE2YzU0LWI4YjUtNGQzMS05NTA1LTY2OGViOWRmYjUxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYwNlQwNzAyMDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYzk2ZjJjMjI0YjQwZTViN2RkNmQyNzYxMWM2N2ZlY2MzMjZjNWY3M2M2MDBmNDA5MmE1YWQyM2Y0ZDRhZjIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZAjgztBUy7PjI2zCDVU1IjUSoyXqJ3AbrqTathhGaTw" width="500">
+ <img align="right" src="https://user-images.githubusercontent.com/53323058/243652858-2d963d02-34be-43b6-92ab-0fdcdd125991.png" width="500">
 
 * The `approach` used in the given program is based on the method described in Annex B for determining the equivalent conicity by `integration of the nonlinear differential equation`. Based on the function ∆r = f(y), and finding the wavelength λ of the wheelset's kinematic motion for a given lateral movement, It is feasible to obtain the value conicity applying the Klingel formula.
 
