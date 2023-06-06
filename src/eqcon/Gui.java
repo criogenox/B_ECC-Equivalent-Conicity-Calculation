@@ -321,12 +321,12 @@ public class Gui extends Application {
         tab0.setClosable(false);
         //
         tab1 = new Tab();
-        tab1.setText("Standard Benchmark Comparision (w/max & min tolerances) ");
+        tab1.setText("Standard Benchmark Comparison (w/max & min tolerances) ");
         tab1.setStyle("-fx-font-weight: bold");
         tab1.setClosable(false);
         //
         tab3 = new Tab();
-        tab3.setText("Rolling Radii Difference");
+        tab3.setText("Wheels' Rolling Radii Difference");
         tab3.setStyle("-fx-font-weight: bold");
         tab3.setClosable(false);
         //
