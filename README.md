@@ -124,7 +124,7 @@ The status of validation of the tests using the coded algorithm, for each ∆r f
 ## Roadmap
 
 - [x] E1-3 symmetric cases implementation
-- [x] Improve detection of ∆r = 0 point (case E4) 
+- [x] Improved detection of ∆r = 0 point (case E4) 
 - [x] E5-8 asymmetric cases implementation
 - [x] Algorithm generalization for dissimilar r/l wheel profiles (case E9)
 
