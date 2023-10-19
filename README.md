@@ -45,8 +45,8 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 ## Built With
 
-<div style="display: flex; flex-direction: row; align=center; border-bottom=none">
-  <a href="https://openjfx.io/">
+<div style="display: flex; flex-direction: row; align=center">
+  <a href="https://openjfx.io/";  border-bottom=none>
     <img class="img"src="https://user-images.githubusercontent.com/53323058/230740541-3d3ee950-7f4c-4399-9275-9795ea7c4f37.png" alt="Logo" width="160" height="65"/>
   </a>
   
