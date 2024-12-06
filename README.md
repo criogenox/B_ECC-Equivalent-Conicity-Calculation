@@ -55,8 +55,8 @@ Nevertheless, It is necessary to follow a clear and concise procedure for the ev
 
 * Manual GUI design & implementation. No fxml file was used in this project (SceneBuilder). Good practice to really understand what you actually are doing.
   
-* No Maven artifacts were used (required libraries are enclosed in lib folder). JavaFX's library must be properly configured in your IDE to run the program (minimum requirement = SDK v19).
-  
+* Using Maven wrapper v3.1.0 (maven v3.8.5), no extra IDE configurations needed. Tested with JavaFX v20 & JDK v21.
+
 * For a more in-depth understanding of the implemented equations, formulas, and algorithms, as many comments as possible have been included.
 </div>
      
